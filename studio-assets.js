@@ -1,0 +1,10 @@
+/* Original painted assets and local sound bank. No network services at runtime. */
+(function(){
+ const ids=['wobble','planet','orchard','tide','golem'];
+ const images={},loads=[];function load(k,path){let im=new Image();images[k]=im;loads.push(new Promise(resolve=>{im.onload=()=>resolve(k);im.onerror=()=>resolve('ERROR:'+k);}));im.src='assets/studio/'+path;}
+ ids.forEach(id=>load('board-'+id,'boards/'+id+'.webp'));
+ window.StudioArt={ids,images,ready:Promise.all(loads),draw(ctx,key,x,y,w,h){let im=images[key];if(im&&im.complete&&im.naturalWidth){ctx.drawImage(im,x,y,w,h);return true;}return false;}};
+ let track=new Audio(),current='',voices=[],vol=.25,fxVol=.55;track.loop=true;track.preload='none';let lastFx=0;
+ const api={play(id){current=id;if(!window.Party||Party.prefs.music===false)return;let musicMap={runner:'rally',bricks:'rhythm',rocket:'sumo',football:'hockey',curling:'target',pinball:'rhythm',river:'rally',cannon:'draw',stack:'color',maze:'memory'};let trackId=musicMap[id]||id;let path=(ids.includes(trackId)?'assets/studio/music/':'assets/music/')+trackId+'.ogg';if(track.getAttribute('src')!==path){track.pause();track.src=path;}track.volume=Party.prefs.musicVolume??vol;let p=track.play();if(p)p.catch(()=>{});},pause(){track.pause();},resume(){if(window.Party&&Party.prefs.music!==false){track.volume=Party.prefs.musicVolume??vol;track.play().catch(()=>{});}},stop(){track.pause();current='';},setEnabled(on){if(!on)track.pause();else api.play(window.Party?.state?.g.id||'menu');},effect(name='tap',rate=1){if(!window.Party||Party.prefs.sound===false)return;let now=performance.now();if(now-lastFx<45)return;lastFx=now;voices=voices.filter(a=>!a.ended&&!a.paused);if(voices.length>=8){voices[0].pause();voices.shift();}let a=new Audio('assets/studio/sfx/'+name+'.ogg');a.volume=Party.prefs.effectsVolume??fxVol;a.playbackRate=Math.max(.7,Math.min(1.4,rate));a.play().catch(()=>{});voices.push(a);},setVolumes(m,f){track.volume=m;vol=m;fxVol=f;},get current(){return current;}};
+ window.StudioAudio=api;GameAssets.music=api;window.addEventListener('blur',()=>{track.pause();voices.forEach(v=>v.pause());});
+})();
