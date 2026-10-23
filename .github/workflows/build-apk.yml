@@ -3,11 +3,470 @@ on:
   workflow_dispatch:
   push:
     branches: [main, master]
+permissions:
+  contents: read
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Restore verified 20-game project folders
+        shell: bash
+        run: |
+          python3 - <<'PY_RESTORE'
+          from pathlib import Path
+          import hashlib, shutil, subprocess, sys
+          root = Path.cwd()
+          manifest = {
+              "app/build.gradle": {
+                  "source": "build.gradle",
+                  "sha256": "84747ab75b682be1040cdc38f858448259ff14f2f8ca06371177d863b0610231"
+              },
+              "app/src/main/AndroidManifest.xml": {
+                  "source": "AndroidManifest.xml",
+                  "sha256": "160ba071a29b2277bb1a2ed60993ebffb642bb9ca5e7d66029ede376657a247c"
+              },
+              "app/src/main/assets/arcade.css": {
+                  "source": "arcade.css",
+                  "sha256": "444ecfa97da0ada1fb8d2052477383c1d679a09de6ac138f8b7e0170d410ce5b"
+              },
+              "app/src/main/assets/assets/arcade/boat.png": {
+                  "source": "boat.png",
+                  "sha256": "ab5ee95ad14d5d7b16ed3957c13fdda09be0ad40c97761c260c688cf18fe67bf"
+              },
+              "app/src/main/assets/assets/arcade/cannon.png": {
+                  "source": "cannon.png",
+                  "sha256": "fea67aabe4c334b1aa5319733c451247e71c7d040a81cd3458a90882fb880149"
+              },
+              "app/src/main/assets/assets/arcade/keeper.png": {
+                  "source": "keeper.png",
+                  "sha256": "0cee821bc7b25298c64e764dfcdfd9a1d75be4e5da4ba2a769610ac51a595ce6"
+              },
+              "app/src/main/assets/assets/arcade/rocket.png": {
+                  "source": "rocket.png",
+                  "sha256": "bf647dd806c7cc3eb859683042824d49880104fe139d85a9483e9a6e56f94402"
+              },
+              "app/src/main/assets/assets/arcade/runner.png": {
+                  "source": "runner.png",
+                  "sha256": "91914b5150e8899d929f52efb7fe94e29cb5c27a4fb0c527de898cebeb86d847"
+              },
+              "app/src/main/assets/assets/arcade/stone.png": {
+                  "source": "stone.png",
+                  "sha256": "2c935145d4013ffe05120f87bfbf0b1487059c1b0a5ad99afee1a268ff5c17e2"
+              },
+              "app/src/main/assets/assets/art/boxes.webp": {
+                  "source": "boxes.webp",
+                  "sha256": "86bb3617bca9b820df42857778b714b578b3aa1c7ef97051dd65ee212b1d1970"
+              },
+              "app/src/main/assets/assets/art/bricks.webp": {
+                  "source": "bricks.webp",
+                  "sha256": "88260323b1a42132374e3b777ecc6e219dc3ebec3f92d00a55e0132eb6cf76cc"
+              },
+              "app/src/main/assets/assets/art/cannon.webp": {
+                  "source": "cannon.webp",
+                  "sha256": "a58a313a12923354e855cd1b4ed326654acb2c0c1a4a5ca53bd344b2f92e0b09"
+              },
+              "app/src/main/assets/assets/art/color.webp": {
+                  "source": "color.webp",
+                  "sha256": "30fa35a605bd00dc567fde6b930f44ba4755e24a1ca440855600c715456bff12"
+              },
+              "app/src/main/assets/assets/art/connect.webp": {
+                  "source": "connect.webp",
+                  "sha256": "ec5c4181fcc955000b068b4a73112d571a0c7b1c532dacfee9ee9004a477684d"
+              },
+              "app/src/main/assets/assets/art/curling.webp": {
+                  "source": "curling.webp",
+                  "sha256": "2f68618f750e435892324fa4ae0ae3c6b120a9675d097cad20924f60ddac13c4"
+              },
+              "app/src/main/assets/assets/art/draw.webp": {
+                  "source": "draw.webp",
+                  "sha256": "ea611891018498eac9464f711be1a74a2bf161a7e3ae5c7af0cd8a723c034705"
+              },
+              "app/src/main/assets/assets/art/football.webp": {
+                  "source": "football.webp",
+                  "sha256": "67f5a85e3fc416d556a63b1f828e2c37352c409d9dc75fd4cb110183e0aadddf"
+              },
+              "app/src/main/assets/assets/art/hockey.webp": {
+                  "source": "hockey.webp",
+                  "sha256": "266cd8227edc9483ba6923e986bc52df09372e787ec6d16020fc26790f3a2f16"
+              },
+              "app/src/main/assets/assets/art/maze.webp": {
+                  "source": "maze.webp",
+                  "sha256": "1bc2915f9bc4df695bf09fe6b4e3662dfe14ad9ca4877a52e77072041f383688"
+              },
+              "app/src/main/assets/assets/art/memory.webp": {
+                  "source": "memory.webp",
+                  "sha256": "9b44370f0a85a28a21e8c59261777975f8058943767e2472d479e3687930f8c9"
+              },
+              "app/src/main/assets/assets/art/pinball.webp": {
+                  "source": "pinball.webp",
+                  "sha256": "f503f47da8af22f5b438a1a6e4e220418e8f9db645f5ff3f496a0ecd14d1a1a4"
+              },
+              "app/src/main/assets/assets/art/rally.webp": {
+                  "source": "rally.webp",
+                  "sha256": "c0d9d528b5fd44b2d4bb7c039e931dc6661d0d3c71ed913e0728ca7376c21d4c"
+              },
+              "app/src/main/assets/assets/art/rhythm.webp": {
+                  "source": "rhythm.webp",
+                  "sha256": "6b5d01ec39a392c864f644ef72eb369337c9cc3c40e02737526032d630be960f"
+              },
+              "app/src/main/assets/assets/art/river.webp": {
+                  "source": "river.webp",
+                  "sha256": "61b4a425cb47e2c8d5b8bb4f94cc51f61ffd0ddb81d6ecea24b48d2aa4143533"
+              },
+              "app/src/main/assets/assets/art/rocket.webp": {
+                  "source": "rocket.webp",
+                  "sha256": "0b7be1399b62a474ad49a390234d34ff583872329f12e5fc8a61870b2690c18e"
+              },
+              "app/src/main/assets/assets/art/runner.webp": {
+                  "source": "runner.webp",
+                  "sha256": "302746f9eb994e398cdf193ea72448d4ae2054eeab8598c0bffda009f12f54b2"
+              },
+              "app/src/main/assets/assets/art/stack.webp": {
+                  "source": "stack.webp",
+                  "sha256": "d76791a4c91402ba91c501d11395a0d92dc9f0628865a1718b056b8bebe676b8"
+              },
+              "app/src/main/assets/assets/art/sumo.webp": {
+                  "source": "sumo.webp",
+                  "sha256": "199ee57a2870f76baf091cebe308c02dc8796d645a6e8496004519f5b17a94a3"
+              },
+              "app/src/main/assets/assets/art/target.webp": {
+                  "source": "target.webp",
+                  "sha256": "0379b70d6ad1350551b7a5038474429ca2cc9852084fcc1f088cad9e4bc3c77f"
+              },
+              "app/src/main/assets/assets/music/boxes.ogg": {
+                  "source": "boxes.ogg",
+                  "sha256": "393e549d3e057cbb7b11b2ddc3d358c056aa0c00ee9f60f4b5e355331de64b7c"
+              },
+              "app/src/main/assets/assets/music/color.ogg": {
+                  "source": "color.ogg",
+                  "sha256": "5a1d442d93651f6969869e72de3b44a32324da70e64b5646140cf58a871b3781"
+              },
+              "app/src/main/assets/assets/music/connect.ogg": {
+                  "source": "connect.ogg",
+                  "sha256": "abd1e89fc36be420ac00d1eb079d3035b73985019c6eca083d3f76a21f0e5b7f"
+              },
+              "app/src/main/assets/assets/music/draw.ogg": {
+                  "source": "draw.ogg",
+                  "sha256": "9086411431ec3701916cea4d270919b70a08e42f439e758650464da619cd073b"
+              },
+              "app/src/main/assets/assets/music/hockey.ogg": {
+                  "source": "hockey.ogg",
+                  "sha256": "2e94731bf79e16bfbc6b61c08f1a62ffe015255bdd45f1ac2b4bb0f8d48cfc7d"
+              },
+              "app/src/main/assets/assets/music/memory.ogg": {
+                  "source": "memory.ogg",
+                  "sha256": "e035802414dfdb57472fa3f9de03b6b279c6d2b6ddf52700860c78b90fcd4534"
+              },
+              "app/src/main/assets/assets/music/menu.ogg": {
+                  "source": "menu.ogg",
+                  "sha256": "18416c34c659a2da3d86260aa0ce0b04cf510876be6a1945e6bb56603973abf1"
+              },
+              "app/src/main/assets/assets/music/rally.ogg": {
+                  "source": "rally.ogg",
+                  "sha256": "52905e398de24eedb9009638af06e549b32f2054c41d5ec332cc472897c45aad"
+              },
+              "app/src/main/assets/assets/music/rhythm.ogg": {
+                  "source": "rhythm.ogg",
+                  "sha256": "f4e3c6468708351375dde69ec9607ed01eefcd09585f2c3761ec1f37222f45ba"
+              },
+              "app/src/main/assets/assets/music/sumo.ogg": {
+                  "source": "sumo.ogg",
+                  "sha256": "52ef50058c36900070d9cf6cc127bec43fba3b0600e9903bbfbc168a96cd812e"
+              },
+              "app/src/main/assets/assets/music/target.ogg": {
+                  "source": "target.ogg",
+                  "sha256": "139e15abf876e39c66327312db5609614360488176d5b256ba4d7e9d0d2e5388"
+              },
+              "app/src/main/assets/assets/sfx/goal.wav": {
+                  "source": "goal.wav",
+                  "sha256": "3e0d2d4891243d8ba540ab42e5ea669434005041a5ab09ab26b0c7ffa05e565a"
+              },
+              "app/src/main/assets/assets/sfx/hit.wav": {
+                  "source": "hit.wav",
+                  "sha256": "1a1a3b2db1116ddf28e2987224348fcad3552d89a3b5c7df242d2c59821209aa"
+              },
+              "app/src/main/assets/assets/sfx/ready.wav": {
+                  "source": "ready.wav",
+                  "sha256": "a8bda5fa73e6c8a870145d7b015a546e865fac3e42d0ed2d2ca2c438a033298d"
+              },
+              "app/src/main/assets/assets/sfx/tap.wav": {
+                  "source": "tap.wav",
+                  "sha256": "bf543739ec2a2b21feeecbf6d0479e9665023a09366e50a8048493d3fcaf5fc5"
+              },
+              "app/src/main/assets/assets/sfx/win.wav": {
+                  "source": "win.wav",
+                  "sha256": "31727be9fc9209ac11068f2645949f38d1a7705f7d3a4d6155b3b37d2846c326"
+              },
+              "app/src/main/assets/assets/sprites/car-0.png": {
+                  "source": "car-0.png",
+                  "sha256": "ecd4012d13ad8bf17ea08a76ed2fe55145abae975d6de071241d9f06491aed45"
+              },
+              "app/src/main/assets/assets/sprites/car-1.png": {
+                  "source": "car-1.png",
+                  "sha256": "e0fcac40f7955b0e3cfc72dc3cd30f22e9e8ec4b4a7ce5d862c091abea153059"
+              },
+              "app/src/main/assets/assets/sprites/car-2.png": {
+                  "source": "car-2.png",
+                  "sha256": "69bc4e80d5ecfe8a5a1ca4db7e9ff24224f82421c01a9ed5fac99ba0c2a75f27"
+              },
+              "app/src/main/assets/assets/sprites/car-3.png": {
+                  "source": "car-3.png",
+                  "sha256": "963864f80534653645e17f124cd0b3c7b6c86bec659b92ab778a7a05c0aeb1d8"
+              },
+              "app/src/main/assets/assets/sprites/card-back-0.png": {
+                  "source": "card-back-0.png",
+                  "sha256": "fa6bf89c128e6921e1b8ca5c96e99c704c327af1a924bb38e7d959814cfba784"
+              },
+              "app/src/main/assets/assets/sprites/card-back-1.png": {
+                  "source": "card-back-1.png",
+                  "sha256": "6f79a9daa5ea1000ac1efb275abb9e2a2d0fdb49367a3bb5c2b74ce924a5416f"
+              },
+              "app/src/main/assets/assets/sprites/card-back-2.png": {
+                  "source": "card-back-2.png",
+                  "sha256": "18c72b0ce74d3571fc6f260a16ed626cc87dfaf2e9c89d1991edc521cdaab000"
+              },
+              "app/src/main/assets/assets/sprites/card-back-3.png": {
+                  "source": "card-back-3.png",
+                  "sha256": "b3689753ee3cf573155a07d5c573892c03d796abbad11abb1484893694a5c2a0"
+              },
+              "app/src/main/assets/assets/sprites/counter-0.png": {
+                  "source": "counter-0.png",
+                  "sha256": "0add25313ed74d12f0f47b3fffc61ace32f2773d93a7b2239471d4be82f1aeed"
+              },
+              "app/src/main/assets/assets/sprites/counter-1.png": {
+                  "source": "counter-1.png",
+                  "sha256": "0af96232b07deeeb9271e3398a279b3a8e15e084deff31676124e65ae899f9a6"
+              },
+              "app/src/main/assets/assets/sprites/counter-2.png": {
+                  "source": "counter-2.png",
+                  "sha256": "6bd1f9524c0618b65401f1d84eac1d55917d64355d0922a64f7a8f4c29d90b12"
+              },
+              "app/src/main/assets/assets/sprites/counter-3.png": {
+                  "source": "counter-3.png",
+                  "sha256": "a2a1b7667e8fa485f161570d8b2e3b4bc7cb7b29f4e4fa7fd843878c0d0c629b"
+              },
+              "app/src/main/assets/assets/sprites/puck.png": {
+                  "source": "puck.png",
+                  "sha256": "418a2580e156fd1aa6aff39a973fc4b18abc70e1717d389e8f2a9221c2511485"
+              },
+              "app/src/main/assets/assets/sprites/signal-go.png": {
+                  "source": "signal-go.png",
+                  "sha256": "f28a54e022a70eca01f2d9b9a0505525c1e767556754dffbfca81802f9475b0a"
+              },
+              "app/src/main/assets/assets/sprites/signal-result.png": {
+                  "source": "signal-result.png",
+                  "sha256": "a4942841c9b1bfe500b2c67cf9c86a5921a02666b0d10a20305ef6f48541cad2"
+              },
+              "app/src/main/assets/assets/sprites/signal-wait.png": {
+                  "source": "signal-wait.png",
+                  "sha256": "6668395f3e1a71e2bb86d118f207425dc7f2dae6fe117341b96095017b888d2b"
+              },
+              "app/src/main/assets/assets/sprites/striker-0.png": {
+                  "source": "striker-0.png",
+                  "sha256": "1c9a3e2afca597106aed2c511f79a2b50f2ea30ff6a8634b7400ada805c4cedd"
+              },
+              "app/src/main/assets/assets/sprites/striker-1.png": {
+                  "source": "striker-1.png",
+                  "sha256": "3fee18874e18a665048f315142b7aa4315e476e795d010e1e7b6bd958b28d91a"
+              },
+              "app/src/main/assets/assets/sprites/striker-2.png": {
+                  "source": "striker-2.png",
+                  "sha256": "65bb40cb0e69a11d91aa12e52edbe1a26c9e198adb7cf120a3fb4d022afec9aa"
+              },
+              "app/src/main/assets/assets/sprites/striker-3.png": {
+                  "source": "striker-3.png",
+                  "sha256": "79892480144fd34695c4dcc4017c89cb4601fb6544068bc7e2d5a1652b629fdf"
+              },
+              "app/src/main/assets/assets/studio/boards/golem.webp": {
+                  "source": "golem.webp",
+                  "sha256": "ca49eb33dfcc3bd791017f8b6be5f34353e5a5f82755d3423bb72b41ba678a92"
+              },
+              "app/src/main/assets/assets/studio/boards/orchard.webp": {
+                  "source": "orchard.webp",
+                  "sha256": "d477177b82b33c71d6f87f7e31d3601aecb8f22a8183fbd3e7579d4dbe527ed0"
+              },
+              "app/src/main/assets/assets/studio/boards/planet.webp": {
+                  "source": "planet.webp",
+                  "sha256": "0452a9b4a69398b9e03d7387a7c0cb099d5c40d4573390e865b3b0d0ea874f12"
+              },
+              "app/src/main/assets/assets/studio/boards/tide.webp": {
+                  "source": "tide.webp",
+                  "sha256": "351d256543eceb33e2b9d7a5f2948fdcfb8af6088dbc34bffa8bcb5d5e2e03c8"
+              },
+              "app/src/main/assets/assets/studio/boards/wobble.webp": {
+                  "source": "wobble.webp",
+                  "sha256": "583e5958d69c49e954696ade5159e9587b209636b567485ce08b7a3335e943f6"
+              },
+              "app/src/main/assets/assets/studio/sfx/cloth.ogg": {
+                  "source": "cloth.ogg",
+                  "sha256": "f32faa4d5e609e29c2d399cde8ea58d3834b15a670dbc1f12a1e0d3e18298686"
+              },
+              "app/src/main/assets/assets/studio/sfx/magic.ogg": {
+                  "source": "magic.ogg",
+                  "sha256": "f09fbcbdcb009b77147f8d74f052e9a79e4929b072251b4326ffc769629e5701"
+              },
+              "app/src/main/assets/assets/studio/sfx/metal.ogg": {
+                  "source": "metal.ogg",
+                  "sha256": "3c08f8ea9cbc8ff43867c0eb1957c6b534b3b93052736e03d7af8fda2830fb46"
+              },
+              "app/src/main/assets/assets/studio/sfx/miss.ogg": {
+                  "source": "miss.ogg",
+                  "sha256": "e2a773fbf21b55a78d74df69736309da22ee8d7bc47294b10df43fc51fe09d7d"
+              },
+              "app/src/main/assets/assets/studio/sfx/route.ogg": {
+                  "source": "route.ogg",
+                  "sha256": "17fd7cc632bccea6c060a47d364b2ef4ccf137ff9d962a484a0cf75a8c9327d7"
+              },
+              "app/src/main/assets/assets/studio/sfx/success.ogg": {
+                  "source": "success.ogg",
+                  "sha256": "cfec9fe4e670cd4ed7b6b2ea16a6e5eb3070e5f8ee3aa0a3c87cccdefe126343"
+              },
+              "app/src/main/assets/assets/studio/sfx/tap.ogg": {
+                  "source": "tap.ogg",
+                  "sha256": "90f04986b65f88ca01f51c242be7c6f0d4d9924a55cfdc5799313836761808d9"
+              },
+              "app/src/main/assets/assets/studio/sfx/warning.ogg": {
+                  "source": "warning.ogg",
+                  "sha256": "0ad03374ee233322beed087e4e2c49da5f871ed3bbf92d41e29e503549a9a933"
+              },
+              "app/src/main/assets/assets/studio/sfx/water.ogg": {
+                  "source": "water.ogg",
+                  "sha256": "bea8ad5beb4b3e753f8fa51fa33f2214bf3eca4b1e8585999389799edcab1eae"
+              },
+              "app/src/main/assets/assets/studio/sfx/win.ogg": {
+                  "source": "win.ogg",
+                  "sha256": "0ded2128942b11a97bd72e4de0130f39d50e9cb339894ee0cfadd7cc02b097fa"
+              },
+              "app/src/main/assets/assets/studio/sfx/wind.ogg": {
+                  "source": "wind.ogg",
+                  "sha256": "044ee01c7bbf828dae4976077172eb04b13bdb4a13261d3c2d4b7eeea4399a4d"
+              },
+              "app/src/main/assets/assets/studio/sfx/wood.ogg": {
+                  "source": "wood.ogg",
+                  "sha256": "56992093d28a7d87c1f1c813b161c62786bc102a8af44b22e2691cdd4d82061b"
+              },
+              "app/src/main/assets/assets/textures/asphalt.webp": {
+                  "source": "asphalt.webp",
+                  "sha256": "b1a385f833938103844183f9fac0325037e564d8af66c9d9f671ff98e1832959"
+              },
+              "app/src/main/assets/assets/textures/ice.webp": {
+                  "source": "ice.webp",
+                  "sha256": "da3e15731546443a2e4c952ec268f319b87fc6492c9934f7b4c8fed83f156cdb"
+              },
+              "app/src/main/assets/assets/textures/paper.webp": {
+                  "source": "paper.webp",
+                  "sha256": "00daf11b12068905e7573145e608a1b2a51e4f5665754f6d4e9ba9d07f81c51e"
+              },
+              "app/src/main/assets/assets/textures/tatami.webp": {
+                  "source": "tatami.webp",
+                  "sha256": "20555141799d995051e8cb68cdf3d98aceff3fa3191acf6d48ebb0015387f362"
+              },
+              "app/src/main/assets/assets.js": {
+                  "source": "assets.js",
+                  "sha256": "6fd1fc4141cd1c982b7685281acc12f60208e5e9e910e6ca3c514f710920df81"
+              },
+              "app/src/main/assets/deluxe.js": {
+                  "source": "deluxe.js",
+                  "sha256": "b583774fd12c9207347581ad64daaac09722736e073a94fb5878b11c04725f77"
+              },
+              "app/src/main/assets/game.js": {
+                  "source": "game.js",
+                  "sha256": "0d5467b619c21a08c3ba1c62f5427d109e2786e58c3922a19c52d126c42f8895"
+              },
+              "app/src/main/assets/index.html": {
+                  "source": "index.html",
+                  "sha256": "6f64e83f7e1cf296d198a7fdc5df9f3758154e329cbeb9a83bece6cca71f17f2"
+              },
+              "app/src/main/assets/studio-assets.js": {
+                  "source": "studio-assets.js",
+                  "sha256": "42b0de95fc55aea3bc2b9e18113e918344cc8390eca6e77cef3e969a95afaf2e"
+              },
+              "app/src/main/assets/style.css": {
+                  "source": "style.css",
+                  "sha256": "62c2908d5e3f9bfc1acc55fdbc0158a13befb7b4e7e09f14bd233f8d9372013a"
+              },
+              "app/src/main/java/site/st3amkeys/pocketparty/MainActivity.java": {
+                  "source": "MainActivity.java",
+                  "sha256": "e5d6f7a2b0922c397617fdaf352664bbc666b76e8f0bb2b76887eca23ee9d8d1"
+              },
+              "app/src/main/res/drawable/ic_launcher.xml": {
+                  "source": "ic_launcher.xml",
+                  "sha256": "5d6c71fab9e9e948085eef315dfdbf1bf3b2d145bcbd46ef3e592e41f92cd591"
+              },
+              "arcade-source.js": {
+                  "source": "arcade-source.js",
+                  "sha256": "0ef7b4ae8d813a2eff3d568d351de6e95fb9fe772300d9ed95f7abe8a892771f"
+              },
+              "build-expansion.py": {
+                  "source": "build-expansion.py",
+                  "sha256": "bc77ee962e0f9ed2274f792dfc278e34c95ac098c87185598d5bf38c192f34ff"
+              },
+              "build.gradle": {
+                  "source": "build (1).gradle",
+                  "sha256": "8ebf0602839be8fd4c06f07a93e45da6b4a04444fa1b38df8b9def9c1b5c8032"
+              },
+              "core-source.js": {
+                  "source": "core-source.js",
+                  "sha256": "ffcf68475e27e220cdd2997222829ec0d944ee68513d3968fb6fa5d482dbedd4"
+              },
+              "expansion-source.js": {
+                  "source": "expansion-source.js",
+                  "sha256": "614b63519b70599f96f4966f43a52f2dba5d36af1f8a23eddacf565ed3fd550e"
+              },
+              "gradle/wrapper/gradle-wrapper.jar": {
+                  "source": "gradle-wrapper.jar",
+                  "sha256": "498495120a03b9a6ab5d155f5de3c8f0d986a449153702fb80fc80e134484f17"
+              },
+              "gradle/wrapper/gradle-wrapper.properties": {
+                  "source": "gradle-wrapper.properties",
+                  "sha256": "ec50a38cce403f0a387f77960d40d115bf67035b87cfcb13f6710fd293a60ce4"
+              },
+              "gradle.properties": {
+                  "source": "gradle.properties",
+                  "sha256": "4667473ab79d19d7b6d3f7c341c798a60b413fa3aa08587ce81809a58c797904"
+              },
+              "gradlew": {
+                  "source": "gradlew",
+                  "sha256": "9cbbb4d68ff7fb5211c4d58f598ac9d8664c05fdcd1e5f59b7f2c3ac1ee00af0"
+              },
+              "gradlew.bat": {
+                  "source": "gradlew.bat",
+                  "sha256": "0f3ed8f03b50934cb8c48b15a470d5c20a30a5385825e48b55bcc8ea3d8f8e18"
+              },
+              "settings.gradle": {
+                  "source": "settings.gradle",
+                  "sha256": "f80427df86dde2fbd4c733663c5e428ab51648cc204e5a9fd2da9b21e2eaf3ee"
+              },
+              "studio-source.js": {
+                  "source": "studio-source.js",
+                  "sha256": "8b808a46d6fcc43a4cbacbb6196d69be0922027c3be53c30df3cb118f3177e98"
+              }
+          }
+          saved = {}
+          for target, info in manifest.items():
+              source = root / info["source"]
+              if not source.is_file():
+                  raise SystemExit("Missing uploaded file: " + info["source"])
+              data = source.read_bytes()
+              if hashlib.sha256(data).hexdigest() != info["sha256"]:
+                  raise SystemExit("Uploaded file changed since the verified repair: " + info["source"])
+              saved[target] = data
+          runtime = root / "app/src/main/assets"
+          if runtime.exists():
+              shutil.rmtree(runtime)
+          for target, data in saved.items():
+              dest = root / target
+              dest.parent.mkdir(parents=True, exist_ok=True)
+              dest.write_bytes(data)
+          (root / "gradlew").chmod(0o755)
+          subprocess.run([sys.executable, "build-expansion.py"], check=True)
+          expected = manifest["app/src/main/assets/game.js"]["sha256"]
+          actual = hashlib.sha256((runtime / "game.js").read_bytes()).hexdigest()
+          if actual != expected:
+              raise SystemExit("The rebuilt runtime does not match the tested 20-game release")
+          print("Restored 106 verified files. Ready to build Pocket Party 6 with 20 games.")
+          PY_RESTORE
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -21,5 +480,6 @@ jobs:
         run: chmod +x gradlew && ./gradlew --no-daemon :app:assembleDebug
       - uses: actions/upload-artifact@v4
         with:
-          name: PocketParty-debug-apk
+          name: PocketParty-6-20games-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
