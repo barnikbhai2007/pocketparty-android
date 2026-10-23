@@ -1,0 +1,256 @@
+{
+  "runtimeAssetCount": 50,
+  "runtimeBytes": 8571252,
+  "files": [
+    {
+      "path": "app/src/main/assets/assets/art/boxes.webp",
+      "bytes": 13282,
+      "sha256": "86bb3617bca9b820df42857778b714b578b3aa1c7ef97051dd65ee212b1d1970"
+    },
+    {
+      "path": "app/src/main/assets/assets/art/color.webp",
+      "bytes": 6024,
+      "sha256": "30fa35a605bd00dc567fde6b930f44ba4755e24a1ca440855600c715456bff12"
+    },
+    {
+      "path": "app/src/main/assets/assets/art/connect.webp",
+      "bytes": 16140,
+      "sha256": "ec5c4181fcc955000b068b4a73112d571a0c7b1c532dacfee9ee9004a477684d"
+    },
+    {
+      "path": "app/src/main/assets/assets/art/draw.webp",
+      "bytes": 10040,
+      "sha256": "ea611891018498eac9464f711be1a74a2bf161a7e3ae5c7af0cd8a723c034705"
+    },
+    {
+      "path": "app/src/main/assets/assets/art/hockey.webp",
+      "bytes": 11674,
+      "sha256": "266cd8227edc9483ba6923e986bc52df09372e787ec6d16020fc26790f3a2f16"
+    },
+    {
+      "path": "app/src/main/assets/assets/art/memory.webp",
+      "bytes": 14542,
+      "sha256": "9b44370f0a85a28a21e8c59261777975f8058943767e2472d479e3687930f8c9"
+    },
+    {
+      "path": "app/src/main/assets/assets/art/rally.webp",
+      "bytes": 9552,
+      "sha256": "c0d9d528b5fd44b2d4bb7c039e931dc6661d0d3c71ed913e0728ca7376c21d4c"
+    },
+    {
+      "path": "app/src/main/assets/assets/art/rhythm.webp",
+      "bytes": 20254,
+      "sha256": "6b5d01ec39a392c864f644ef72eb369337c9cc3c40e02737526032d630be960f"
+    },
+    {
+      "path": "app/src/main/assets/assets/art/sumo.webp",
+      "bytes": 14262,
+      "sha256": "199ee57a2870f76baf091cebe308c02dc8796d645a6e8496004519f5b17a94a3"
+    },
+    {
+      "path": "app/src/main/assets/assets/art/target.webp",
+      "bytes": 13720,
+      "sha256": "0379b70d6ad1350551b7a5038474429ca2cc9852084fcc1f088cad9e4bc3c77f"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/boxes.ogg",
+      "bytes": 728297,
+      "sha256": "393e549d3e057cbb7b11b2ddc3d358c056aa0c00ee9f60f4b5e355331de64b7c"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/color.ogg",
+      "bytes": 649487,
+      "sha256": "5a1d442d93651f6969869e72de3b44a32324da70e64b5646140cf58a871b3781"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/connect.ogg",
+      "bytes": 686439,
+      "sha256": "abd1e89fc36be420ac00d1eb079d3035b73985019c6eca083d3f76a21f0e5b7f"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/draw.ogg",
+      "bytes": 648942,
+      "sha256": "9086411431ec3701916cea4d270919b70a08e42f439e758650464da619cd073b"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/hockey.ogg",
+      "bytes": 644822,
+      "sha256": "2e94731bf79e16bfbc6b61c08f1a62ffe015255bdd45f1ac2b4bb0f8d48cfc7d"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/memory.ogg",
+      "bytes": 757855,
+      "sha256": "e035802414dfdb57472fa3f9de03b6b279c6d2b6ddf52700860c78b90fcd4534"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/menu.ogg",
+      "bytes": 697499,
+      "sha256": "18416c34c659a2da3d86260aa0ce0b04cf510876be6a1945e6bb56603973abf1"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/rally.ogg",
+      "bytes": 633525,
+      "sha256": "52905e398de24eedb9009638af06e549b32f2054c41d5ec332cc472897c45aad"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/rhythm.ogg",
+      "bytes": 644908,
+      "sha256": "f4e3c6468708351375dde69ec9607ed01eefcd09585f2c3761ec1f37222f45ba"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/sumo.ogg",
+      "bytes": 717195,
+      "sha256": "52ef50058c36900070d9cf6cc127bec43fba3b0600e9903bbfbc168a96cd812e"
+    },
+    {
+      "path": "app/src/main/assets/assets/music/target.ogg",
+      "bytes": 680390,
+      "sha256": "139e15abf876e39c66327312db5609614360488176d5b256ba4d7e9d0d2e5388"
+    },
+    {
+      "path": "app/src/main/assets/assets/sfx/goal.wav",
+      "bytes": 26504,
+      "sha256": "3e0d2d4891243d8ba540ab42e5ea669434005041a5ab09ab26b0c7ffa05e565a"
+    },
+    {
+      "path": "app/src/main/assets/assets/sfx/hit.wav",
+      "bytes": 26504,
+      "sha256": "1a1a3b2db1116ddf28e2987224348fcad3552d89a3b5c7df242d2c59821209aa"
+    },
+    {
+      "path": "app/src/main/assets/assets/sfx/ready.wav",
+      "bytes": 26504,
+      "sha256": "a8bda5fa73e6c8a870145d7b015a546e865fac3e42d0ed2d2ca2c438a033298d"
+    },
+    {
+      "path": "app/src/main/assets/assets/sfx/tap.wav",
+      "bytes": 26504,
+      "sha256": "bf543739ec2a2b21feeecbf6d0479e9665023a09366e50a8048493d3fcaf5fc5"
+    },
+    {
+      "path": "app/src/main/assets/assets/sfx/win.wav",
+      "bytes": 114704,
+      "sha256": "31727be9fc9209ac11068f2645949f38d1a7705f7d3a4d6155b3b37d2846c326"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/car-0.png",
+      "bytes": 13519,
+      "sha256": "ecd4012d13ad8bf17ea08a76ed2fe55145abae975d6de071241d9f06491aed45"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/car-1.png",
+      "bytes": 13335,
+      "sha256": "e0fcac40f7955b0e3cfc72dc3cd30f22e9e8ec4b4a7ce5d862c091abea153059"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/car-2.png",
+      "bytes": 13224,
+      "sha256": "69bc4e80d5ecfe8a5a1ca4db7e9ff24224f82421c01a9ed5fac99ba0c2a75f27"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/car-3.png",
+      "bytes": 13786,
+      "sha256": "963864f80534653645e17f124cd0b3c7b6c86bec659b92ab778a7a05c0aeb1d8"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/card-back-0.png",
+      "bytes": 29929,
+      "sha256": "fa6bf89c128e6921e1b8ca5c96e99c704c327af1a924bb38e7d959814cfba784"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/card-back-1.png",
+      "bytes": 29752,
+      "sha256": "6f79a9daa5ea1000ac1efb275abb9e2a2d0fdb49367a3bb5c2b74ce924a5416f"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/card-back-2.png",
+      "bytes": 31222,
+      "sha256": "18c72b0ce74d3571fc6f260a16ed626cc87dfaf2e9c89d1991edc521cdaab000"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/card-back-3.png",
+      "bytes": 29910,
+      "sha256": "b3689753ee3cf573155a07d5c573892c03d796abbad11abb1484893694a5c2a0"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/counter-0.png",
+      "bytes": 13505,
+      "sha256": "0add25313ed74d12f0f47b3fffc61ace32f2773d93a7b2239471d4be82f1aeed"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/counter-1.png",
+      "bytes": 13430,
+      "sha256": "0af96232b07deeeb9271e3398a279b3a8e15e084deff31676124e65ae899f9a6"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/counter-2.png",
+      "bytes": 13613,
+      "sha256": "6bd1f9524c0618b65401f1d84eac1d55917d64355d0922a64f7a8f4c29d90b12"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/counter-3.png",
+      "bytes": 13801,
+      "sha256": "a2a1b7667e8fa485f161570d8b2e3b4bc7cb7b29f4e4fa7fd843878c0d0c629b"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/puck.png",
+      "bytes": 3601,
+      "sha256": "418a2580e156fd1aa6aff39a973fc4b18abc70e1717d389e8f2a9221c2511485"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/signal-go.png",
+      "bytes": 16780,
+      "sha256": "f28a54e022a70eca01f2d9b9a0505525c1e767556754dffbfca81802f9475b0a"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/signal-result.png",
+      "bytes": 16412,
+      "sha256": "a4942841c9b1bfe500b2c67cf9c86a5921a02666b0d10a20305ef6f48541cad2"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/signal-wait.png",
+      "bytes": 16872,
+      "sha256": "6668395f3e1a71e2bb86d118f207425dc7f2dae6fe117341b96095017b888d2b"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/striker-0.png",
+      "bytes": 53974,
+      "sha256": "1c9a3e2afca597106aed2c511f79a2b50f2ea30ff6a8634b7400ada805c4cedd"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/striker-1.png",
+      "bytes": 53622,
+      "sha256": "3fee18874e18a665048f315142b7aa4315e476e795d010e1e7b6bd958b28d91a"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/striker-2.png",
+      "bytes": 53030,
+      "sha256": "65bb40cb0e69a11d91aa12e52edbe1a26c9e198adb7cf120a3fb4d022afec9aa"
+    },
+    {
+      "path": "app/src/main/assets/assets/sprites/striker-3.png",
+      "bytes": 55950,
+      "sha256": "79892480144fd34695c4dcc4017c89cb4601fb6544068bc7e2d5a1652b629fdf"
+    },
+    {
+      "path": "app/src/main/assets/assets/textures/asphalt.webp",
+      "bytes": 96016,
+      "sha256": "b1a385f833938103844183f9fac0325037e564d8af66c9d9f671ff98e1832959"
+    },
+    {
+      "path": "app/src/main/assets/assets/textures/ice.webp",
+      "bytes": 45134,
+      "sha256": "da3e15731546443a2e4c952ec268f319b87fc6492c9934f7b4c8fed83f156cdb"
+    },
+    {
+      "path": "app/src/main/assets/assets/textures/paper.webp",
+      "bytes": 13366,
+      "sha256": "00daf11b12068905e7573145e608a1b2a51e4f5665754f6d4e9ba9d07f81c51e"
+    },
+    {
+      "path": "app/src/main/assets/assets/textures/tatami.webp",
+      "bytes": 77900,
+      "sha256": "20555141799d995051e8cb68cdf3d98aceff3fa3191acf6d48ebb0015387f362"
+    }
+  ]
+}

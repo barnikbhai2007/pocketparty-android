@@ -1,0 +1,1446 @@
+{
+  "scope": "Simulated three-bot matches against an idle human, not human playtesting",
+  "cases": [
+    {
+      "id": "rally",
+      "skill": "easy",
+      "scores": [
+        -19,
+        20,
+        22,
+        20
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "sumo",
+      "skill": "easy",
+      "scores": [
+        5,
+        5,
+        4,
+        3
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "hockey",
+      "skill": "easy",
+      "scores": [
+        -10,
+        -1,
+        0,
+        -1
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "draw",
+      "skill": "easy",
+      "scores": [
+        0,
+        7,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "color",
+      "skill": "easy",
+      "scores": [
+        0,
+        9,
+        6,
+        7
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "target",
+      "skill": "easy",
+      "scores": [
+        0,
+        66,
+        66,
+        66
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "rhythm",
+      "skill": "easy",
+      "scores": [
+        0,
+        75,
+        75,
+        75
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "memory",
+      "skill": "easy",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": false
+    },
+    {
+      "id": "connect",
+      "skill": "easy",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": false
+    },
+    {
+      "id": "boxes",
+      "skill": "easy",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": false
+    },
+    {
+      "id": "skyhook",
+      "skill": "easy",
+      "scores": [
+        0,
+        9,
+        7,
+        24
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "fossil",
+      "skill": "easy",
+      "scores": [
+        0,
+        8,
+        16,
+        6
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "elevator",
+      "skill": "easy",
+      "scores": [
+        0,
+        57,
+        63,
+        63
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "wobble",
+      "skill": "easy",
+      "scores": [
+        0,
+        137,
+        131,
+        113
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "unravel",
+      "skill": "easy",
+      "scores": [
+        0,
+        160,
+        160,
+        136
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "kite",
+      "skill": "easy",
+      "scores": [
+        4,
+        14,
+        25,
+        14
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "gravity",
+      "skill": "easy",
+      "scores": [
+        0,
+        4,
+        8,
+        4
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tumble",
+      "skill": "easy",
+      "scores": [
+        0,
+        42,
+        46,
+        40
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "moss",
+      "skill": "easy",
+      "scores": [
+        3,
+        0,
+        0,
+        9
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "choir",
+      "skill": "easy",
+      "scores": [
+        0,
+        27,
+        26,
+        19
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "potion",
+      "skill": "easy",
+      "scores": [
+        0,
+        37,
+        34,
+        45
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "mole",
+      "skill": "easy",
+      "scores": [
+        0,
+        25,
+        20,
+        25
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tailor",
+      "skill": "easy",
+      "scores": [
+        0,
+        48,
+        48,
+        24
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "sea",
+      "skill": "easy",
+      "scores": [
+        0,
+        2,
+        0,
+        3
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "golem",
+      "skill": "easy",
+      "scores": [
+        4,
+        4,
+        8,
+        8
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "suitcase",
+      "skill": "easy",
+      "scores": [
+        14,
+        61,
+        -20,
+        -20
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tongue",
+      "skill": "easy",
+      "scores": [
+        0,
+        54,
+        52,
+        68
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "room",
+      "skill": "easy",
+      "scores": [
+        0,
+        67,
+        73,
+        64
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "ghost",
+      "skill": "easy",
+      "scores": [
+        0,
+        23,
+        38,
+        16
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "spaghetti",
+      "skill": "easy",
+      "scores": [
+        0,
+        31,
+        -2,
+        41
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "planet",
+      "skill": "easy",
+      "scores": [
+        0,
+        0,
+        20,
+        16
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "candle",
+      "skill": "easy",
+      "scores": [
+        -4,
+        1,
+        4,
+        -2
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "octopus",
+      "skill": "easy",
+      "scores": [
+        0,
+        80,
+        84,
+        84
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "sunshine",
+      "skill": "easy",
+      "scores": [
+        4,
+        27,
+        24,
+        13
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "gift",
+      "skill": "easy",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tide",
+      "skill": "easy",
+      "scores": [
+        0,
+        15,
+        15,
+        20
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "orchard",
+      "skill": "easy",
+      "scores": [
+        0,
+        84,
+        81,
+        78
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "heat",
+      "skill": "easy",
+      "scores": [
+        0,
+        -5,
+        -7,
+        -3
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "parcel",
+      "skill": "easy",
+      "scores": [
+        0,
+        12,
+        14,
+        16
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "echo",
+      "skill": "easy",
+      "scores": [
+        0,
+        1,
+        -1,
+        -11
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "rally",
+      "skill": "normal",
+      "scores": [
+        -9,
+        20,
+        21,
+        21
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "sumo",
+      "skill": "normal",
+      "scores": [
+        3,
+        5,
+        7,
+        6
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "hockey",
+      "skill": "normal",
+      "scores": [
+        -3,
+        0,
+        -1,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "draw",
+      "skill": "normal",
+      "scores": [
+        0,
+        7,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "color",
+      "skill": "normal",
+      "scores": [
+        0,
+        10,
+        5,
+        8
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "target",
+      "skill": "normal",
+      "scores": [
+        0,
+        63,
+        69,
+        66
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "rhythm",
+      "skill": "normal",
+      "scores": [
+        0,
+        75,
+        75,
+        75
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "memory",
+      "skill": "normal",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": false
+    },
+    {
+      "id": "connect",
+      "skill": "normal",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": false
+    },
+    {
+      "id": "boxes",
+      "skill": "normal",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": false
+    },
+    {
+      "id": "skyhook",
+      "skill": "normal",
+      "scores": [
+        0,
+        26,
+        8,
+        6
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "fossil",
+      "skill": "normal",
+      "scores": [
+        0,
+        24,
+        24,
+        22
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "elevator",
+      "skill": "normal",
+      "scores": [
+        0,
+        111,
+        147,
+        132
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "wobble",
+      "skill": "normal",
+      "scores": [
+        0,
+        173,
+        173,
+        173
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "unravel",
+      "skill": "normal",
+      "scores": [
+        0,
+        320,
+        336,
+        344
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "kite",
+      "skill": "normal",
+      "scores": [
+        2,
+        16,
+        29,
+        19
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "gravity",
+      "skill": "normal",
+      "scores": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tumble",
+      "skill": "normal",
+      "scores": [
+        0,
+        45,
+        44,
+        46
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "moss",
+      "skill": "normal",
+      "scores": [
+        0,
+        3,
+        3,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "choir",
+      "skill": "normal",
+      "scores": [
+        0,
+        27,
+        29,
+        27
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "potion",
+      "skill": "normal",
+      "scores": [
+        0,
+        127,
+        125,
+        122
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "mole",
+      "skill": "normal",
+      "scores": [
+        0,
+        55,
+        55,
+        50
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tailor",
+      "skill": "normal",
+      "scores": [
+        0,
+        66,
+        84,
+        102
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "sea",
+      "skill": "normal",
+      "scores": [
+        0,
+        0,
+        -1,
+        3
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "golem",
+      "skill": "normal",
+      "scores": [
+        0,
+        12,
+        16,
+        12
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "suitcase",
+      "skill": "normal",
+      "scores": [
+        -20,
+        69,
+        -20,
+        -20
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tongue",
+      "skill": "normal",
+      "scores": [
+        0,
+        128,
+        116,
+        140
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "room",
+      "skill": "normal",
+      "scores": [
+        0,
+        138,
+        135,
+        138
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "ghost",
+      "skill": "normal",
+      "scores": [
+        0,
+        185,
+        202,
+        180
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "spaghetti",
+      "skill": "normal",
+      "scores": [
+        0,
+        52,
+        52,
+        53
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "planet",
+      "skill": "normal",
+      "scores": [
+        0,
+        4,
+        28,
+        8
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "candle",
+      "skill": "normal",
+      "scores": [
+        -6,
+        16,
+        9,
+        1
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "octopus",
+      "skill": "normal",
+      "scores": [
+        0,
+        176,
+        172,
+        160
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "sunshine",
+      "skill": "normal",
+      "scores": [
+        5,
+        31,
+        13,
+        22
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "gift",
+      "skill": "normal",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tide",
+      "skill": "normal",
+      "scores": [
+        0,
+        15,
+        20,
+        20
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "orchard",
+      "skill": "normal",
+      "scores": [
+        0,
+        129,
+        129,
+        99
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "heat",
+      "skill": "normal",
+      "scores": [
+        0,
+        8,
+        9,
+        10
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "parcel",
+      "skill": "normal",
+      "scores": [
+        0,
+        22,
+        22,
+        22
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "echo",
+      "skill": "normal",
+      "scores": [
+        0,
+        96,
+        120,
+        111
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "rally",
+      "skill": "hard",
+      "scores": [
+        6,
+        21,
+        20,
+        20
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "sumo",
+      "skill": "hard",
+      "scores": [
+        0,
+        7,
+        4,
+        4
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "hockey",
+      "skill": "hard",
+      "scores": [
+        -2,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "draw",
+      "skill": "hard",
+      "scores": [
+        0,
+        7,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "color",
+      "skill": "hard",
+      "scores": [
+        0,
+        8,
+        7,
+        9
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "target",
+      "skill": "hard",
+      "scores": [
+        0,
+        26,
+        28,
+        21
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "rhythm",
+      "skill": "hard",
+      "scores": [
+        0,
+        75,
+        75,
+        75
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "memory",
+      "skill": "hard",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": false
+    },
+    {
+      "id": "connect",
+      "skill": "hard",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": false
+    },
+    {
+      "id": "boxes",
+      "skill": "hard",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": false
+    },
+    {
+      "id": "skyhook",
+      "skill": "hard",
+      "scores": [
+        0,
+        26,
+        1,
+        3
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "fossil",
+      "skill": "hard",
+      "scores": [
+        0,
+        54,
+        54,
+        50
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "elevator",
+      "skill": "hard",
+      "scores": [
+        0,
+        126,
+        135,
+        159
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "wobble",
+      "skill": "hard",
+      "scores": [
+        0,
+        185,
+        185,
+        185
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "unravel",
+      "skill": "hard",
+      "scores": [
+        0,
+        696,
+        696,
+        720
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "kite",
+      "skill": "hard",
+      "scores": [
+        2,
+        27,
+        14,
+        30
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "gravity",
+      "skill": "hard",
+      "scores": [
+        0,
+        4,
+        0,
+        4
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tumble",
+      "skill": "hard",
+      "scores": [
+        0,
+        60,
+        59,
+        59
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "moss",
+      "skill": "hard",
+      "scores": [
+        6,
+        6,
+        3,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "choir",
+      "skill": "hard",
+      "scores": [
+        0,
+        49,
+        56,
+        40
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "potion",
+      "skill": "hard",
+      "scores": [
+        0,
+        150,
+        145,
+        138
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "mole",
+      "skill": "hard",
+      "scores": [
+        0,
+        105,
+        105,
+        105
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tailor",
+      "skill": "hard",
+      "scores": [
+        0,
+        168,
+        162,
+        72
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "sea",
+      "skill": "hard",
+      "scores": [
+        0,
+        2,
+        -1,
+        -1
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "golem",
+      "skill": "hard",
+      "scores": [
+        0,
+        32,
+        20,
+        12
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "suitcase",
+      "skill": "hard",
+      "scores": [
+        -20,
+        81,
+        -20,
+        -20
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tongue",
+      "skill": "hard",
+      "scores": [
+        0,
+        282,
+        300,
+        250
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "room",
+      "skill": "hard",
+      "scores": [
+        0,
+        144,
+        144,
+        144
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "ghost",
+      "skill": "hard",
+      "scores": [
+        0,
+        246,
+        255,
+        258
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "spaghetti",
+      "skill": "hard",
+      "scores": [
+        0,
+        69,
+        68,
+        58
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "planet",
+      "skill": "hard",
+      "scores": [
+        0,
+        4,
+        32,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "candle",
+      "skill": "hard",
+      "scores": [
+        -10,
+        16,
+        17,
+        14
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "octopus",
+      "skill": "hard",
+      "scores": [
+        0,
+        348,
+        352,
+        356
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "sunshine",
+      "skill": "hard",
+      "scores": [
+        4,
+        30,
+        24,
+        11
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "gift",
+      "skill": "hard",
+      "scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "tide",
+      "skill": "hard",
+      "scores": [
+        0,
+        15,
+        20,
+        20
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "orchard",
+      "skill": "hard",
+      "scores": [
+        0,
+        144,
+        153,
+        141
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "heat",
+      "skill": "hard",
+      "scores": [
+        0,
+        39,
+        31,
+        33
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "parcel",
+      "skill": "hard",
+      "scores": [
+        0,
+        22,
+        22,
+        22
+      ],
+      "finite": true,
+      "ended": true
+    },
+    {
+      "id": "echo",
+      "skill": "hard",
+      "scores": [
+        0,
+        162,
+        165,
+        162
+      ],
+      "finite": true,
+      "ended": true
+    }
+  ],
+  "errors": []
+}

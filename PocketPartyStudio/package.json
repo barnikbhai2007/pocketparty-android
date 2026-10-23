@@ -1,0 +1,16 @@
+{
+  "name": "pocket-party-source",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 build-expansion.py",
+    "test": "node tests/strategy-gameplay.cjs",
+    "test:matrix": "node tests/studio-smoke.cjs",
+    "test:ui": "node tests/strategy-ui.cjs",
+    "build:standalone": "python3 build-standalone.py",
+    "test:standalone": "node tests/strategy-standalone.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}

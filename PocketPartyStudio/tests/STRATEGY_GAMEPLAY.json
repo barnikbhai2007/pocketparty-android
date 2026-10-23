@@ -1,0 +1,2652 @@
+{
+  "scope": "Chromium simulation and synthetic legal-rule fixtures, not human enjoyment, win-rate, Android or physical multitouch certification",
+  "checks": [
+    "Thirty rebuilt definitions",
+    "Pickup is unbanked",
+    "Docking banks actual cargo",
+    "Repeated ability cannot bypass cooldown",
+    "Shield blocks torpedo spill",
+    "Attract moves the key",
+    "Front captured; rear untouched",
+    "Rival goal pays last toucher",
+    "Own goal pays nobody",
+    "Equal tugs do not choose an arbitrary winner",
+    "Oxygen failure returns to dock without score",
+    "Scan + round refill are accounted",
+    "Excavation cannot be farmed",
+    "Only adjacent movement is legal",
+    "Program changes position through normal action",
+    "No early tap score for planting",
+    "Stage 5 resets to zero",
+    "One-round route delivered legally",
+    "Gather adds ingredient",
+    "Brew consumes exact recipe",
+    "Overlapping shape rejected without spending turn",
+    "Restoring known valid thread scores through normal rule",
+    "Swap keeps all eight unique fixed slots",
+    "Successful marble test scores",
+    "Straight path misses row-4 basket",
+    "Repeated last note is not free score",
+    "Passenger boarded at correct floor",
+    "Arrival pays owner fare",
+    "Heavy outer placement pays risky value",
+    "Collapse retracts prior points and penalises placer",
+    "Turn waits during shot",
+    "Physics moves ball and then advances",
+    "Overweight pack rejected",
+    "Risk spills rival and actor cargo",
+    "Guard absorbs the full blow",
+    "Empty banking rejected",
+    "Six shares bank at 1.5 multiplier",
+    "First round priority P1",
+    "Second round priority P2",
+    "Bots wait for a human commitment"
+  ],
+  "fixtures": [
+    {
+      "name": "Cargo has no score until docked",
+      "ok": true
+    },
+    {
+      "name": "Cooldown and energy gate repeated firing",
+      "ok": true
+    },
+    {
+      "name": "Ward blocks real projectile",
+      "ok": true
+    },
+    {
+      "name": "Magnet pulls objects rather than injecting score",
+      "ok": true
+    },
+    {
+      "name": "Flash uses facing cone",
+      "ok": true
+    },
+    {
+      "name": "Goal checks last touch and goal ownership",
+      "ok": true
+    },
+    {
+      "name": "Opposed tethers cancel",
+      "ok": true
+    },
+    {
+      "name": "Flood consumes oxygen and drops cargo",
+      "ok": true
+    },
+    {
+      "name": "Fossil clue costs tools; excavation scores once",
+      "ok": true
+    },
+    {
+      "name": "Mole forbids teleporting",
+      "ok": true
+    },
+    {
+      "name": "Golem executes selected three-step program",
+      "ok": true
+    },
+    {
+      "name": "Planting scores only at final harvest",
+      "ok": true
+    },
+    {
+      "name": "Orchard over-ripening really rots",
+      "ok": true
+    },
+    {
+      "name": "Route dispatch settles after ETA",
+      "ok": true
+    },
+    {
+      "name": "Potion uses inventory and public stock",
+      "ok": true
+    },
+    {
+      "name": "Packing prevents overlap and previews real shape",
+      "ok": true
+    },
+    {
+      "name": "Thread generator contains a valid route",
+      "ok": true
+    },
+    {
+      "name": "Fixed knot slots cannot be collapsed",
+      "ok": true
+    },
+    {
+      "name": "Marble workshop has a guaranteed solvable route",
+      "ok": true
+    },
+    {
+      "name": "Marble failure has a cost",
+      "ok": true
+    },
+    {
+      "name": "Choir repeat is penalised",
+      "ok": true
+    },
+    {
+      "name": "Elevator boards and delivers real passenger",
+      "ok": true
+    },
+    {
+      "name": "Torque collapse removes unbanked piece points",
+      "ok": true
+    },
+    {
+      "name": "Flick is real physics, not target tapping",
+      "ok": true
+    },
+    {
+      "name": "Suitcase rejects over-capacity cargo",
+      "ok": true
+    },
+    {
+      "name": "Noodle snap affects all attached players",
+      "ok": true
+    },
+    {
+      "name": "Candle guard counters attack",
+      "ok": true
+    },
+    {
+      "name": "Pressure bonus requires real shares",
+      "ok": true
+    },
+    {
+      "name": "Public bid tie priority rotates",
+      "ok": true
+    },
+    {
+      "name": "Idle human is not skipped in planning games",
+      "ok": true
+    }
+  ],
+  "spam": [
+    {
+      "id": "skyhook",
+      "score": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "score": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "score": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "score": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "score": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "score": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "score": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "score": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "score": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "score": 0,
+      "ok": true
+    }
+  ],
+  "matches": [
+    {
+      "id": "skyhook",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        37
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        40,
+        38,
+        39,
+        49
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        18
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        29,
+        33,
+        35,
+        47
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        15
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        7,
+        23,
+        20,
+        35
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        22
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        35,
+        32,
+        32,
+        36
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        15
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        36,
+        31,
+        28,
+        27
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        12
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        15,
+        17,
+        16,
+        9
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        25
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        28,
+        32,
+        38,
+        52
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        21
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        21,
+        45,
+        40,
+        36
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        24
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        24,
+        34,
+        33,
+        40
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        15
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        34,
+        33,
+        33,
+        35
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        11
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        31,
+        24,
+        32,
+        28
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        21
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        10,
+        13,
+        13,
+        15
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        34
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        35,
+        35,
+        25,
+        43
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        12
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        30,
+        38,
+        25,
+        31
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        16
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        16,
+        25,
+        28,
+        32
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        0
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        3,
+        43,
+        34,
+        33
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        6
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        0,
+        31,
+        43,
+        40
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        6
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        7,
+        41,
+        31,
+        30
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        3
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        3,
+        3,
+        0,
+        9
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        3
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        3
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        6,
+        0,
+        3,
+        0
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        12
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        12,
+        8,
+        0,
+        0
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        3
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        0,
+        0,
+        3,
+        2
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        3
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        3,
+        4,
+        0,
+        0
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        29
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        38,
+        34,
+        31,
+        45
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        26
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        27,
+        32,
+        30,
+        29
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        15
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        22,
+        25,
+        19,
+        29
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        34
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        42,
+        29,
+        33,
+        37
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        12
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        36,
+        37,
+        35,
+        29
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        21
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1201,
+      "scores": [
+        10,
+        23,
+        28,
+        31
+      ],
+      "turns": 0,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        0
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        -2,
+        7,
+        8,
+        -1
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        3
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        4,
+        3,
+        -1,
+        4
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        3
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        3,
+        4,
+        -2,
+        8
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 20,
+      "scores": [
+        10
+      ],
+      "turns": 20,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 1080,
+      "scores": [
+        5,
+        10,
+        10,
+        5
+      ],
+      "turns": 80,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 20,
+      "scores": [
+        5
+      ],
+      "turns": 20,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 1080,
+      "scores": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "turns": 80,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 20,
+      "scores": [
+        5
+      ],
+      "turns": 20,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 1080,
+      "scores": [
+        5,
+        5,
+        0,
+        15
+      ],
+      "turns": 80,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        12
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        16,
+        24,
+        12,
+        8
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        16
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        8,
+        12,
+        12,
+        16
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        16
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        8,
+        16,
+        16,
+        8
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        6
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        8
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        14
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        11,
+        11,
+        8,
+        11
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        28
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        17,
+        19,
+        16,
+        18
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        27
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        15,
+        19,
+        16,
+        21
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        29
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        12,
+        21,
+        20,
+        19
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        30
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        21,
+        22,
+        21,
+        33
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        30
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        22,
+        29,
+        33,
+        16
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        30
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        20,
+        26,
+        30,
+        24
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        10
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        10,
+        7,
+        10,
+        12
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        10
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        10,
+        12,
+        12,
+        10
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        10
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        12,
+        12,
+        10,
+        5
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        41
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        36,
+        44,
+        55,
+        46
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        44
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        38,
+        52,
+        43,
+        43
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        44
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        48,
+        40,
+        38,
+        50
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 12,
+      "scores": [
+        10
+      ],
+      "turns": 12,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 648,
+      "scores": [
+        20,
+        0,
+        0,
+        10
+      ],
+      "turns": 48,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 12,
+      "scores": [
+        10
+      ],
+      "turns": 12,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 648,
+      "scores": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "turns": 48,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 12,
+      "scores": [
+        10
+      ],
+      "turns": 12,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 648,
+      "scores": [
+        0,
+        10,
+        10,
+        10
+      ],
+      "turns": 48,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        16
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        8,
+        24,
+        16,
+        16
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        16
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        24,
+        16,
+        8,
+        24
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        16
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        8,
+        24,
+        24,
+        16
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 12,
+      "scores": [
+        24
+      ],
+      "turns": 12,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 648,
+      "scores": [
+        16,
+        24,
+        16,
+        16
+      ],
+      "turns": 48,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 12,
+      "scores": [
+        8
+      ],
+      "turns": 12,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 648,
+      "scores": [
+        16,
+        16,
+        16,
+        8
+      ],
+      "turns": 48,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 12,
+      "scores": [
+        8
+      ],
+      "turns": 12,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 648,
+      "scores": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "turns": 48,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        11
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        7,
+        11,
+        6,
+        5
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        16
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        12,
+        11,
+        14,
+        10
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        16
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        11,
+        6,
+        16,
+        12
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        16
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        16,
+        14,
+        11,
+        15
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        15
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        16,
+        22,
+        13,
+        11
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        12
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        18,
+        17,
+        3,
+        12
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        30
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        23,
+        23,
+        25,
+        25
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        30
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        23,
+        19,
+        20,
+        21
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        27
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        23,
+        23,
+        25,
+        25
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 480,
+      "scores": [
+        36
+      ],
+      "turns": 12,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 2673,
+      "scores": [
+        30,
+        36,
+        36,
+        36
+      ],
+      "turns": 48,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 528,
+      "scores": [
+        16
+      ],
+      "turns": 12,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 2624,
+      "scores": [
+        16,
+        24,
+        30,
+        34
+      ],
+      "turns": 48,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 616,
+      "scores": [
+        24
+      ],
+      "turns": 12,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 2668,
+      "scores": [
+        18,
+        36,
+        18,
+        36
+      ],
+      "turns": 48,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        27
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        32,
+        35,
+        39,
+        27
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        41
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        38,
+        28,
+        36,
+        32
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        38
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        32,
+        33,
+        34,
+        41
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        10
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        8,
+        8,
+        10,
+        10
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        8
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        6,
+        10,
+        8,
+        7
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        10
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        8,
+        6,
+        10,
+        6
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        12
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        16,
+        26,
+        28,
+        22
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        14
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        13,
+        11,
+        13,
+        15
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 10,
+      "scores": [
+        12
+      ],
+      "turns": 10,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 541,
+      "scores": [
+        12,
+        12,
+        24,
+        10
+      ],
+      "turns": 40,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        30
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        27,
+        21,
+        9,
+        15
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        27
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        16,
+        21,
+        9,
+        16
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        27
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        16,
+        18,
+        24,
+        15
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "map": 0,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        64
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "map": 0,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        13,
+        24,
+        18,
+        24
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "map": 1,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        64
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "map": 1,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        22,
+        21,
+        16,
+        21
+      ],
+      "turns": 32,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "map": 2,
+      "seats": 1,
+      "ended": true,
+      "frames": 8,
+      "scores": [
+        64
+      ],
+      "turns": 8,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "map": 2,
+      "seats": 4,
+      "ended": true,
+      "frames": 432,
+      "scores": [
+        16,
+        24,
+        16,
+        18
+      ],
+      "turns": 32,
+      "ok": true
+    }
+  ],
+  "pageErrors": []
+}

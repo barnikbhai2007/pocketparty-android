@@ -1,0 +1,112 @@
+[
+  {
+    "track": "menu",
+    "bpm": 112,
+    "seconds": 51.429,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.3275,
+    "rms": 0.0507,
+    "masterBytes": 9072044
+  },
+  {
+    "track": "rally",
+    "bpm": 128,
+    "seconds": 45.0,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.3596,
+    "rms": 0.0541,
+    "masterBytes": 7938044
+  },
+  {
+    "track": "sumo",
+    "bpm": 108,
+    "seconds": 53.333,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.331,
+    "rms": 0.0495,
+    "masterBytes": 9408044
+  },
+  {
+    "track": "hockey",
+    "bpm": 120,
+    "seconds": 48.0,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.3172,
+    "rms": 0.0517,
+    "masterBytes": 8467244
+  },
+  {
+    "track": "draw",
+    "bpm": 116,
+    "seconds": 49.655,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.325,
+    "rms": 0.0536,
+    "masterBytes": 8759216
+  },
+  {
+    "track": "color",
+    "bpm": 124,
+    "seconds": 46.452,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.3406,
+    "rms": 0.0531,
+    "masterBytes": 8194108
+  },
+  {
+    "track": "target",
+    "bpm": 110,
+    "seconds": 52.364,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.3233,
+    "rms": 0.0534,
+    "masterBytes": 9236988
+  },
+  {
+    "track": "rhythm",
+    "bpm": 128,
+    "seconds": 45.0,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.3311,
+    "rms": 0.0553,
+    "masterBytes": 7938044
+  },
+  {
+    "track": "memory",
+    "bpm": 104,
+    "seconds": 55.385,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.3276,
+    "rms": 0.0496,
+    "masterBytes": 9769888
+  },
+  {
+    "track": "connect",
+    "bpm": 112,
+    "seconds": 51.429,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.3285,
+    "rms": 0.0503,
+    "masterBytes": 9072044
+  },
+  {
+    "track": "boxes",
+    "bpm": 108,
+    "seconds": 53.333,
+    "sampleRate": 44100,
+    "channels": 2,
+    "peak": 0.3157,
+    "rms": 0.0498,
+    "masterBytes": 9408044
+  }
+]

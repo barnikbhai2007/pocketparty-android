@@ -1,0 +1,11 @@
+{
+  "customPlaylist": true,
+  "selectedMaps": true,
+  "standings": true,
+  "finalPodium": true,
+  "realTouch": true,
+  "prototypePointerCases": 30,
+  "mobileHorizontalOverflow": false,
+  "browserErrors": [],
+  "scope": "Desktop Chromium, mobile viewport and pointer simulation; no Android device testing"
+}

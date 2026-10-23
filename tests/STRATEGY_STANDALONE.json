@@ -1,0 +1,16 @@
+{
+  "scope": "One-file offline Chromium test; image/audio decode, library filters and actual UI launch, not a listening or Android-device test",
+  "checks": [
+    "All 103 studio images decode from embedded assets",
+    "All classic images decode from embedded assets",
+    "All 40 games in standalone library",
+    "Arena shelf shows exactly ten games",
+    "Planning shelf shows exactly twenty games",
+    "Standalone launches rebuilt engine from real UI",
+    "Embedded audio resolves and decodes",
+    "Solo has no hidden universal score target",
+    "Standalone makes no external file or network requests: "
+  ],
+  "errors": [],
+  "externalRequests": []
+}

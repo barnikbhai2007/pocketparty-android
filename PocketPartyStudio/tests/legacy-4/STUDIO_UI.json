@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "1 human + 3 bots",
+    "bot count clamps to four seats",
+    "party and audio settings persist",
+    "tournament includes bot seats",
+    "selected map and seats applied",
+    "mixed standings rendered",
+    "cup completes",
+    "bots complete gift preparation",
+    "real DOM pointer input",
+    "pause freezes simulation",
+    "no tablet horizontal overflow",
+    "no mobile horizontal overflow"
+  ],
+  "errors": [],
+  "scope": "Chromium UI and simulated pointer testing; standings fixture scores are synthetic"
+}

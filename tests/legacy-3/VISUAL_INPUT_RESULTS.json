@@ -1,0 +1,58 @@
+{
+  "scope": "Chromium rendered UI and CDP touch emulation, NOT physical Android testing",
+  "checks": [
+    {
+      "name": "two simultaneous track taps",
+      "passed": true,
+      "actual": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "two simultaneous sumo holds",
+      "passed": true,
+      "actual": [
+        true,
+        true
+      ]
+    },
+    {
+      "name": "sumo release clears both inputs",
+      "passed": true
+    },
+    {
+      "name": "four independent touches reach all players",
+      "passed": true,
+      "actual": {
+        "held": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "scores": [
+          -1,
+          1,
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "name": "direct striker drag",
+      "passed": true,
+      "actual": 0.7686651583710407
+    },
+    {
+      "name": "pause freezes simulation",
+      "passed": true
+    },
+    {
+      "name": "small phone no horizontal overflow",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

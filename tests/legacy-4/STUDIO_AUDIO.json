@@ -1,0 +1,299 @@
+{
+  "scope": "Decode, finite samples, duration and peak checks. Not a listening review or device audio test.",
+  "files": [
+    {
+      "file": "music/candle.ogg",
+      "seconds": 24.0,
+      "peak": 0.8733,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/choir.ogg",
+      "seconds": 17.14,
+      "peak": 0.8933,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/echo.ogg",
+      "seconds": 21.82,
+      "peak": 0.8925,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/elevator.ogg",
+      "seconds": 17.78,
+      "peak": 0.9624,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/fossil.ogg",
+      "seconds": 23.41,
+      "peak": 0.9143,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/ghost.ogg",
+      "seconds": 24.62,
+      "peak": 0.9263,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/gift.ogg",
+      "seconds": 17.14,
+      "peak": 0.958,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/golem.ogg",
+      "seconds": 20.0,
+      "peak": 0.9092,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/gravity.ogg",
+      "seconds": 20.87,
+      "peak": 0.9484,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/heat.ogg",
+      "seconds": 16.55,
+      "peak": 0.9565,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/kite.ogg",
+      "seconds": 18.46,
+      "peak": 0.9106,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/mole.ogg",
+      "seconds": 18.82,
+      "peak": 0.913,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/moss.ogg",
+      "seconds": 24.0,
+      "peak": 0.93,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/octopus.ogg",
+      "seconds": 16.0,
+      "peak": 0.9099,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/orchard.ogg",
+      "seconds": 25.95,
+      "peak": 0.8615,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/parcel.ogg",
+      "seconds": 18.11,
+      "peak": 0.9263,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/planet.ogg",
+      "seconds": 25.26,
+      "peak": 0.8855,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/potion.ogg",
+      "seconds": 19.59,
+      "peak": 0.9476,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/room.ogg",
+      "seconds": 18.46,
+      "peak": 0.9262,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/sea.ogg",
+      "seconds": 26.67,
+      "peak": 0.9249,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/skyhook.ogg",
+      "seconds": 19.2,
+      "peak": 0.917,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/spaghetti.ogg",
+      "seconds": 16.84,
+      "peak": 0.9115,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/suitcase.ogg",
+      "seconds": 17.45,
+      "peak": 0.8887,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/sunshine.ogg",
+      "seconds": 19.2,
+      "peak": 0.91,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/tailor.ogg",
+      "seconds": 22.86,
+      "peak": 0.9353,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/tide.ogg",
+      "seconds": 17.78,
+      "peak": 0.9516,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/tongue.ogg",
+      "seconds": 16.27,
+      "peak": 0.9664,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/tumble.ogg",
+      "seconds": 18.11,
+      "peak": 0.8627,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/unravel.ogg",
+      "seconds": 22.33,
+      "peak": 0.9431,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "music/wobble.ogg",
+      "seconds": 16.55,
+      "peak": 0.9053,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/cloth.ogg",
+      "seconds": 0.25,
+      "peak": 0.3287,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/magic.ogg",
+      "seconds": 0.59,
+      "peak": 0.2775,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/metal.ogg",
+      "seconds": 0.37,
+      "peak": 0.2726,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/miss.ogg",
+      "seconds": 0.27,
+      "peak": 0.3877,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/route.ogg",
+      "seconds": 0.27,
+      "peak": 0.2519,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/success.ogg",
+      "seconds": 0.54,
+      "peak": 0.2571,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/tap.ogg",
+      "seconds": 0.12,
+      "peak": 0.3283,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/warning.ogg",
+      "seconds": 0.39,
+      "peak": 0.2597,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/water.ogg",
+      "seconds": 0.34,
+      "peak": 0.301,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/win.ogg",
+      "seconds": 1.65,
+      "peak": 0.3184,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/wind.ogg",
+      "seconds": 0.62,
+      "peak": 0.2239,
+      "finite": true,
+      "nonSilent": true
+    },
+    {
+      "file": "sfx/wood.ogg",
+      "seconds": 0.17,
+      "peak": 0.3544,
+      "finite": true,
+      "nonSilent": true
+    }
+  ]
+}

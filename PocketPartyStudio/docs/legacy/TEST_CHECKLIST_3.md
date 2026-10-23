@@ -1,0 +1,11 @@
+# Real-device release checklist (not yet performed)
+- Compile debug APK and install on at least a compact phone and a tablet.
+- Confirm every local image and reused music track loads from Android assets.
+- Play every game on every variant with 1/2/3/4 human players; test simultaneous fingers and pointer cancellation.
+- Enlarge dense grids where touch targets are too small on phones.
+- Verify pause, Android Back, interrupted touches, background/foreground and orientation policy.
+- Check solo challenge success/record feedback and classic bot difficulty.
+- Verify random-map nonrepetition, explicit maps, random pool with no selection, long custom playlists and tied scores.
+- Test leaving a tournament through the in-page confirmation, restarting a round and replaying the cup.
+- Human-playtest difficulty, fairness, scoring exploits and interesting map differences; browser smoke checks are not substitutes.
+- Replace prototype graphics and simplified mechanics before calling this a finished release.

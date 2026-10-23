@@ -1,0 +1,200 @@
+{
+  "themes": [
+    {
+      "id": "skyhook",
+      "bpm": 100,
+      "seconds": 19.2,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "fossil",
+      "bpm": 82,
+      "seconds": 23.415,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "elevator",
+      "bpm": 108,
+      "seconds": 17.778,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "wobble",
+      "bpm": 116,
+      "seconds": 16.552,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "unravel",
+      "bpm": 86,
+      "seconds": 22.326,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "kite",
+      "bpm": 104,
+      "seconds": 18.462,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "gravity",
+      "bpm": 92,
+      "seconds": 20.87,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "tumble",
+      "bpm": 106,
+      "seconds": 18.113,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "moss",
+      "bpm": 80,
+      "seconds": 24.0,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "choir",
+      "bpm": 112,
+      "seconds": 17.143,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "potion",
+      "bpm": 98,
+      "seconds": 19.592,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "mole",
+      "bpm": 102,
+      "seconds": 18.824,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "tailor",
+      "bpm": 84,
+      "seconds": 22.857,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "sea",
+      "bpm": 72,
+      "seconds": 26.667,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "golem",
+      "bpm": 96,
+      "seconds": 20.0,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "suitcase",
+      "bpm": 110,
+      "seconds": 17.455,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "tongue",
+      "bpm": 118,
+      "seconds": 16.271,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "room",
+      "bpm": 104,
+      "seconds": 18.462,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "ghost",
+      "bpm": 78,
+      "seconds": 24.615,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "spaghetti",
+      "bpm": 114,
+      "seconds": 16.842,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "planet",
+      "bpm": 76,
+      "seconds": 25.263,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "candle",
+      "bpm": 80,
+      "seconds": 24.0,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "octopus",
+      "bpm": 120,
+      "seconds": 16.0,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "sunshine",
+      "bpm": 100,
+      "seconds": 19.2,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "gift",
+      "bpm": 112,
+      "seconds": 17.143,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "tide",
+      "bpm": 108,
+      "seconds": 17.778,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "orchard",
+      "bpm": 74,
+      "seconds": 25.946,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "heat",
+      "bpm": 116,
+      "seconds": 16.552,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "parcel",
+      "bpm": 106,
+      "seconds": 18.113,
+      "type": "original procedural instrumental loop"
+    },
+    {
+      "id": "echo",
+      "bpm": 88,
+      "seconds": 21.818,
+      "type": "original procedural instrumental loop"
+    }
+  ],
+  "effects": {
+    "tap": 0.1,
+    "wood": 0.18,
+    "metal": 0.35,
+    "water": 0.32,
+    "wind": 0.6,
+    "magic": 0.6,
+    "cloth": 0.26,
+    "success": 0.55,
+    "miss": 0.25,
+    "win": 1.65,
+    "warning": 0.4,
+    "route": 0.28
+  },
+  "sampleRate": 22050,
+  "note": "Original synthesized compositions and Foley-like effects. Loop masters generated reproducibly by this script; no third-party samples."
+}

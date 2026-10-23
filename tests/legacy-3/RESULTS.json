@@ -1,0 +1,1298 @@
+{
+  "cases": [
+    {
+      "game": "rally",
+      "humans": 1,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sumo",
+      "humans": 1,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "hockey",
+      "humans": 1,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "draw",
+      "humans": 1,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "color",
+      "humans": 1,
+      "players": 2,
+      "finite": true,
+      "elapsed": 5.19999999999998,
+      "ok": true
+    },
+    {
+      "game": "target",
+      "humans": 1,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "rhythm",
+      "humans": 1,
+      "players": 2,
+      "finite": true,
+      "elapsed": 4.720000000000011,
+      "ok": true
+    },
+    {
+      "game": "memory",
+      "humans": 1,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "connect",
+      "humans": 1,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "boxes",
+      "humans": 1,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "skyhook",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "fossil",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "elevator",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "wobble",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "unravel",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "kite",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "gravity",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tumble",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "moss",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "choir",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "potion",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "mole",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tailor",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sea",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "golem",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "suitcase",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tongue",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "room",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "ghost",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "spaghetti",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "planet",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "candle",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "octopus",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sunshine",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "gift",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tide",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "orchard",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "heat",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "parcel",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "echo",
+      "humans": 1,
+      "players": 1,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "rally",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sumo",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "hockey",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "draw",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 5.19999999999998,
+      "ok": true
+    },
+    {
+      "game": "color",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "target",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 5.19999999999998,
+      "ok": true
+    },
+    {
+      "game": "rhythm",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "memory",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "connect",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "boxes",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "skyhook",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "fossil",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "elevator",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "wobble",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "unravel",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "kite",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "gravity",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tumble",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "moss",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "choir",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "potion",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "mole",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tailor",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sea",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "golem",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "suitcase",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tongue",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "room",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "ghost",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "spaghetti",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "planet",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "candle",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "octopus",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sunshine",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "gift",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tide",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "orchard",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "heat",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "parcel",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "echo",
+      "humans": 2,
+      "players": 2,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "rally",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sumo",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "hockey",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "draw",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "color",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 5.19999999999998,
+      "ok": true
+    },
+    {
+      "game": "target",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "rhythm",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 4.720000000000011,
+      "ok": true
+    },
+    {
+      "game": "memory",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "connect",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "boxes",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "skyhook",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "fossil",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "elevator",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "wobble",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "unravel",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "kite",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "gravity",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tumble",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "moss",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "choir",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "potion",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "mole",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tailor",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sea",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "golem",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "suitcase",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tongue",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "room",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "ghost",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "spaghetti",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "planet",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "candle",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "octopus",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sunshine",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "gift",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tide",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "orchard",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "heat",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "parcel",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "echo",
+      "humans": 3,
+      "players": 3,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "rally",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sumo",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "hockey",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "draw",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 5.19999999999998,
+      "ok": true
+    },
+    {
+      "game": "color",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "target",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 5.19999999999998,
+      "ok": true
+    },
+    {
+      "game": "rhythm",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "memory",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "connect",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "boxes",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "skyhook",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "fossil",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "elevator",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "wobble",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "unravel",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "kite",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "gravity",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tumble",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "moss",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "choir",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "potion",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "mole",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tailor",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sea",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "golem",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "suitcase",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tongue",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "room",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "ghost",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "spaghetti",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "planet",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "candle",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "octopus",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "sunshine",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "gift",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "tide",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "orchard",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "heat",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "parcel",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    },
+    {
+      "game": "echo",
+      "humans": 4,
+      "players": 4,
+      "finite": true,
+      "elapsed": 3.9999999999999907,
+      "ok": true
+    }
+  ],
+  "rules": {
+    "directionalWins": true,
+    "emptyNotWin": true,
+    "gravity": true,
+    "boxEdges": true,
+    "memoryMatch": true,
+    "colourSingleTap": true,
+    "connectGravity": true,
+    "boxCapture": true
+  },
+  "timedGamesComplete": true,
+  "browserErrors": [],
+  "scope": "Browser smoke/rule checks only, not Android/device/full gameplay QA",
+  "passed": true
+}

@@ -1,0 +1,155 @@
+{
+  "scope": "Synthetic engine-state fixtures testing scoring paths; not human playtests",
+  "cases": [
+    {
+      "id": "skyhook",
+      "score": 3,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "score": 16,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "score": 3,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "score": 7,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "score": 8,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "score": 2,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "score": 4,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "score": 1,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "score": 3,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "score": 5,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "score": 5,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "score": 5,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "score": 6,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "score": 3,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "score": 4,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "score": 3,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "score": 2,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "score": 8,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "score": 3,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "score": 2,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "score": 4,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "score": 5,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "score": 4,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "score": 2,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "score": 3,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "score": 5,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "score": 3,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "score": 3,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "score": 2,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "score": 4,
+      "ok": true
+    }
+  ]
+}

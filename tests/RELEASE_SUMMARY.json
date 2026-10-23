@@ -1,0 +1,32 @@
+{
+  "version": "5.0.0-strategy",
+  "scope": "Offline browser release and editable Android project; no compiled APK, physical-device test or human fun/balance certification",
+  "matrix": {
+    "cases": 1100,
+    "failures": 0,
+    "page_errors": []
+  },
+  "gameplay": {
+    "full_matches": 180,
+    "failed_matches": 0,
+    "fixtures": 30,
+    "failed_fixtures": 0,
+    "stationary_spam_checks": 10,
+    "failed_spam_checks": 0,
+    "page_errors": []
+  },
+  "ui": {
+    "checks": 24,
+    "errors": [],
+    "captured_states": 34
+  },
+  "standalone": {
+    "checks": 9,
+    "errors": [],
+    "external_requests": []
+  },
+  "preservation": {
+    "files": 196,
+    "all_match_original": true
+  }
+}

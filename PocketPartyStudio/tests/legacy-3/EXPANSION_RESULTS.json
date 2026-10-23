@@ -1,0 +1,2646 @@
+{
+  "cases": [
+    {
+      "id": "rally",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "rally",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sumo",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sumo",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "hockey",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "hockey",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "draw",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "draw",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "color",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "color",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "target",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "target",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "rhythm",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "rhythm",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "memory",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "memory",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "connect",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "connect",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "boxes",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "boxes",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 1,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 1,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 1,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "rally",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "rally",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sumo",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sumo",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "hockey",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "hockey",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "draw",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "draw",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "color",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "color",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "target",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "target",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "rhythm",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "rhythm",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "memory",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "memory",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "connect",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "connect",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "boxes",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "boxes",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 2,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 2,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 2,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "rally",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "rally",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sumo",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sumo",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "hockey",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "hockey",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "draw",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "draw",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "color",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "color",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "target",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "target",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "rhythm",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "rhythm",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "memory",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "memory",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "connect",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "connect",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "boxes",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "boxes",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 3,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 3,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 3,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "rally",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "rally",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sumo",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sumo",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "hockey",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "hockey",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "draw",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "draw",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "color",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "color",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "target",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "target",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "rhythm",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "rhythm",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "memory",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "memory",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "connect",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "connect",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "boxes",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "boxes",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "skyhook",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "fossil",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "elevator",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "wobble",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "unravel",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "kite",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "gravity",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tumble",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "moss",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "choir",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "potion",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "mole",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tailor",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sea",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "golem",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "suitcase",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tongue",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "room",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "ghost",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "spaghetti",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "planet",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "candle",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "octopus",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "sunshine",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "gift",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "tide",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "orchard",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "heat",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "parcel",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 4,
+      "m": 0,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 4,
+      "m": 1,
+      "ok": true
+    },
+    {
+      "id": "echo",
+      "n": 4,
+      "m": 2,
+      "ok": true
+    }
+  ],
+  "browserErrors": [],
+  "scope": "Browser integration tests, not Android device testing"
+}
